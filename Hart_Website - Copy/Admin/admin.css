@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color:  #0A2239 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    z-index: 999;
+    height: 50px;
+}
+
+nav img {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .navigation ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    color: #1d84b5;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover {
+    color: white;
+}
+
+
+section {
+    padding: 100px 200px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 100px;
+    transition: 0.5s linear;
+    background-color: #1d84b5;
+    opacity: 0.8;
+}
+
+header .shadow {
+    background: #fff;
+    box-shadow: #0A2239;
+}
+
+.logo h2 {
+    color: white;
+}
+
+
+
+.btn-none {
+    text-decoration: none;
+    color: #1d84b5;
+    background: #0A2239;
+    border-radius: 5px;
+}
+
+.user {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    color: #0A2239;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1d84b5;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.table th,
+.table td {
+    border: 1px solid #fff;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #0A2239;
+    color: #fff;
+}
+
+.btn {
+    padding: 10px 40px;
+    border-radius: 0.3rem;
+    background: #0A2239;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: #1d84b5;
+}
